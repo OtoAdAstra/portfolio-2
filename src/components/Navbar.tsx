@@ -5,9 +5,8 @@ import "../styles/Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <LiquidGlass width="90vw" padding="10" margin="10" height="60">
+      <LiquidGlass width="30vw">
         <nav>
-          <h1>space</h1>
           <ul>
             <li>Home</li>
             <li>About</li>
