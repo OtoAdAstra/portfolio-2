@@ -12,7 +12,8 @@ const Navbar = () => {
             <li>About</li>
             <li>Contact</li>
             <li>
-              <button onClick={() => toggleTheme()}>toggle theme</button>
+              <input type="checkbox" id="switch" onChange={toggleTheme} />
+              <label htmlFor="switch">Toggle</label>
             </li>
           </ul>
         </nav>
