@@ -1,4 +1,4 @@
-import { toggleTheme } from "../utils/ToggleTheme";
+// import { toggleTheme } from "../utils/ToggleTheme";
 import LiquidGlass from "./LiquidGlass";
 import "../styles/Navbar.css";
 
@@ -11,10 +11,10 @@ const Navbar = () => {
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-            <li>
+            {/* <li>
               <input type="checkbox" id="switch" onChange={toggleTheme} />
               <label htmlFor="switch">Toggle</label>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </LiquidGlass>
