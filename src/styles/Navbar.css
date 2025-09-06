@@ -7,13 +7,14 @@
   align-items: center;
   justify-content: center;
 }
-
 nav {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 10px 0px;
+  font-size: var(--text-md);
+  font-weight: 600;
 }
 
 nav ul {
