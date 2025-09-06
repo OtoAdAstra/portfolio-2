@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+  --text-xxl: 4rem;
   --text-xl: 2rem;
   --text-lg: 1.5rem;
   --text-md: 1.2rem;
@@ -62,4 +63,24 @@ button {
   color: var(--accent);
   cursor: pointer;
   font-size: var(--text-md);
+}
+
+h1 {
+  font-size: var(--text-xxl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+h3 {
+  font-size: var(--text-lg);
+}
+
+h4 {
+  font-size: var(--text-md);
+}
+
+h5 {
+  font-size: var(--text-sm);
 }
