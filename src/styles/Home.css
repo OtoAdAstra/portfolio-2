@@ -33,6 +33,12 @@
   position: relative;
 }
 
+.hello-world {
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
 .saturn-image {
   position: absolute;
   width: 100%;

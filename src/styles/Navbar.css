@@ -33,7 +33,7 @@ nav ul li {
 
 /* switch  */
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
@@ -73,4 +73,4 @@ input:checked + label:after {
 
 label:active:after {
   width: 23px;
-}
+} */
