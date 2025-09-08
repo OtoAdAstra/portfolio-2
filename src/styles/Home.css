@@ -1,36 +1,10 @@
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  }
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 .home {
   width: 100%;
   height: 100vh;
   display: flex;
   font-size: var(--text-xl);
   position: relative;
+  justify-content: center;
 }
 
 .hello-world {
@@ -46,10 +20,4 @@
   object-fit: cover;
   filter: brightness(0.7);
   z-index: -111;
-}
-
-.wave-image {
-  width: 4rem;
-  height: 4rem;
-  animation: wave 1.5s infinite;
 }

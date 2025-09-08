@@ -1,6 +1,6 @@
 import Saturn from "../assets/saturn.png";
-import wave from "../assets/wave.png";
 import "../styles/home.css";
+import { motion } from "motion/react";
 
 const Home = () => {
   return (
@@ -12,11 +12,15 @@ const Home = () => {
           flexDirection: "row",
           alignItems: "center",
           gap: "20px",
+          height: "fit-content",
         }}>
-        <h1 className="hello-world">HELLO WORLD</h1>
-        <span>
-          <img src={wave} alt="Wave" className="wave-image" />
-        </span>
+        <motion.h1
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{ duration: 2 }}
+          className="hello-world">
+          HELLO WORLD
+        </motion.h1>
       </div>
     </div>
   );
