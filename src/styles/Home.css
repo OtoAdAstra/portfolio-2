@@ -3,7 +3,7 @@
     filter: brightness(0.7) blur(3px);
   }
   50% {
-    filter: brightness(0.7) blur(9px);
+    filter: brightness(0.7) blur(10px);
   }
   100% {
     filter: brightness(0.7) blur(3px);
@@ -31,9 +31,11 @@
 .saturn-image {
   position: absolute;
   width: 100%;
+  overflow: hidden;
   height: 100%;
   object-fit: cover;
   filter: brightness(0.7) blur(3px);
+  transform: translateY(-10px);
   will-change: filter;
   animation: blurEffect 3s ease-in-out forwards;
   z-index: -111;

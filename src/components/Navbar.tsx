@@ -8,8 +8,9 @@ const Navbar = () => {
       <LiquidGlass width="25vw">
         <nav>
           <ul>
-            <li>Home</li>
             <li>About</li>
+            <li>Projects</li>
+            <li>Play</li>
             <li>Contact</li>
             {/* <li>
               <input type="checkbox" id="switch" onChange={toggleTheme} />
