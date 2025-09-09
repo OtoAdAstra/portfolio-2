@@ -1,12 +1,12 @@
 @keyframes blurEffect {
   0% {
-    filter: brightness(0.7) blur(2px);
+    filter: brightness(0.7) blur(3px);
   }
   50% {
-    filter: brightness(0.7) blur(6px);
+    filter: brightness(0.7) blur(9px);
   }
   100% {
-    filter: brightness(0.7) blur(2px);
+    filter: brightness(0.7) blur(3px);
   }
 }
 
@@ -19,15 +19,13 @@
   justify-content: center;
 }
 
-/* .hello-world {
-  z-index: 1;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-} */
-
 .hello-container {
   z-index: 1;
-  margin-top: 10vw;
+  margin-top: 280px;
+}
+
+.hello-container svg {
+  transform: scale(1.5);
 }
 
 .saturn-image {
@@ -35,7 +33,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.7) blur(2px);
+  filter: brightness(0.7) blur(3px);
   will-change: filter;
   animation: blurEffect 3s ease-in-out forwards;
   z-index: -111;
